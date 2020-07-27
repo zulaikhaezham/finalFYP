@@ -1,0 +1,164 @@
+body {
+    background-color:  rgb(171, 176, 221); /*rgb(171, 176, 221);*/
+  }
+.navbar {
+    background-color: rgb(57, 56, 148);
+}
+/* .navbar nav_bottom {
+  background-color: rgb(91, 90, 156);
+} */
+  .nav-item{
+    border: 2px solid grey;border-radius: 4px;
+  }
+  .nav-item:hover{
+    background-color: white;
+    color:black;
+  }
+  .nav-item a{
+    color:white;
+  }
+  .form_title h3{
+    text-align-last: center; 
+    border: 1px solid black;
+    padding: 10pt;
+    background-color: rgb(173, 209, 223); /*246, 244, 252*/
+  }
+  .header h3{
+    text-align-last: center; 
+    padding: 10pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffffd6;
+    
+  }
+button.done {
+          background:#d8137f;
+          color: #fff;
+          text-decoration: none;
+          padding:0px 30px;
+          text-align: center;
+          font-size: 17px;
+          display: inline-block;
+          width: 180px;
+          border: none;
+          cursor:pointer;
+          height: 45px;
+          margin-bottom: 15px;
+           -webkit-appearance: none;
+          position: relative;
+          margin: 10px -100px;
+          top:20%; 
+          left:50%;
+          right: 50%;
+
+}
+button.done:hover {
+          opacity:0.8;
+          background-color:#b70b6f;
+}
+
+button.view {
+  background:#d8137f;
+  color: #fff;
+  text-decoration: none;
+  
+  text-align: center;
+  font-size: 17px;
+  display: inline-block;
+  width: 100px;
+  border: none;
+  cursor:pointer;
+  height: 45px;
+   -webkit-appearance: none;
+ 
+  
+  
+
+}
+button.view:hover {
+  opacity:0.8;
+  background-color:#b70b6f;
+}
+
+
+
+  .Vehicle_info, .Student_info, 
+  .Staff_info, .Contractor_info {
+    border: 1px solid black;
+    padding: 10pt;
+    background-color: rgb(173, 209, 223);
+  }
+  
+  .Vehicle_info_form {
+    margin: 10px -100px; 
+    position:relative;  
+    /* top:50%;  */
+    left:30%;
+  }
+
+  .form-26-mian {
+    background: url(../images/IMG_2671.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+
+.layer{
+background: url(../images/layer.png) no-repeat 0px 0px;
+background-size: cover;
+
+}
+
+.copyright p {
+  
+  color: #ffffffd6;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 10px;
+  margin-top: 10px;
+  
+  }
+
+.btn {
+    height:50px; 
+    width:200px; 
+    margin: 10px -100px; 
+    position:relative;
+    top:20%; 
+    left:50%;
+    right: 50%;
+}
+
+
+
+.view {
+  background:#d8137f;
+          color: #fff;
+          text-decoration: none;
+          padding:0px 30px;
+          text-align: center;
+          font-size: 17px;
+          display: inline-block;
+          width: 200px;
+          border: none;
+          cursor:pointer;
+          height: 30px;
+          margin-bottom: 15px;
+           -webkit-appearance: none;
+}
+
+.view:hover {
+  opacity:0.8;
+  background-color:#b70b6f;
+}
+  
+table, th, td {
+  border: 2px solid #b70b6f;
+  
+  
+}
+
+.container
+{
+  background-color: rgb(173, 209, 223);
+  width:100%;
+}
+

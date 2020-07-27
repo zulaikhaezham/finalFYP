@@ -1,0 +1,247 @@
+
+/* content */
+.w3ls-main {
+  float: center;
+  }
+  
+  body {
+    background-color:  rgb(171, 176, 221); /*rgb(171, 176, 221);*/
+  }
+  .navbar {
+    background-color: rgb(57, 56, 148);
+  }
+  
+  .text-center {
+      text-align: center;
+  }
+  
+  h1 {
+      font-size: 2.9em;
+      text-transform: uppercase;
+      color: #ffffff;
+      
+      letter-spacing: 3px;
+      margin: 0.8em 1vw .9em;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  }
+  
+  .responsive_tabs.w3ls_tab {
+      max-width: 750px;
+      margin: 0 5vw;
+      background: #add1df;
+      padding: 3.5vw;
+      box-sizing: border-box;
+      display: flex;
+      display: -webkit-flex;
+      flex-wrap: wrap;
+      float: center;
+      border: 1px solid #000;
+  }
+  
+  /*-- Pay-page --*/
+  
+  .tab-grid p {
+     
+      font-size: 0.95em;
+      line-height: 1.8em;
+      font-weight: 400;
+      margin: 10px 0;
+  }
+  
+  .agile_pay input[type="email"],
+  .agile_pay input[type="password"],
+  .creditly-wrapper .form-control {
+      display: block;
+      width: 50%;
+      padding: 15px 10px;
+      height: auto;
+      font-size: 14px;
+      
+      background: #fff;
+      border: 1px solid #fff;
+      margin-bottom: 25px;
+      outline: none;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  }
+  
+  .controls-label{
+      float: left;
+  }
+  
+  .form-control {
+      border-radius: 0;
+      padding-left: 10%;
+  }
+  
+  .btn {
+    color: #fff;
+    background-color: #3490dc;
+    height:50px;
+    border: none; 
+    width:200px; 
+    margin: 10px -100px; 
+    position:center;
+    top:20%; 
+    left:50%;
+    right: 50%;
+  }
+      
+    .btn:hover {
+      color: #fff;
+      background-color: #227dc7;
+      border: none;
+    }
+
+   
+  
+  
+  .img {
+      max-width: 100%;
+      height: auto;
+  }
+  
+  .navbar {
+      background-color: rgb(57, 56, 148);
+    }
+  
+  
+    .nav-item{
+      border: 2px solid grey;border-radius: 4px;
+    }
+    .nav-item:hover{
+      background-color: white;
+      
+    }
+    .nav-item a{
+      color:white;
+    }
+    
+.form_title_payment{
+  text-align-last: center; 
+  border: 1px solid black;
+  margin: 0px 100px 10px 300px;
+  padding: 10pt;
+  background-color: rgb(173, 209, 223); /*246, 244, 252*/
+  width: 55.5%;
+}
+    
+    .Payment_info{
+      text-align-last: center; 
+      
+      margin: 10px 200px;
+      padding: 10pt;
+      background-color: rgb(173, 209, 223); /*246, 244, 252*/
+    }
+    
+    .form-26-mian {
+      background: url(../images/IMG_2671.jpg) no-repeat 0px 0px;
+      background-size: cover;
+      
+    }
+    .layer{
+    background: url(../images/layer.png) no-repeat 0px 0px;
+    background-size: cover;
+    min-height: 100vh;
+    }
+    
+    .copyright p {
+    
+    color: #ffffffd6;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 10px;
+    margin-top: 10px;
+    
+    }
+  
+
+.progress_bar {
+  counter-reset: step;
+}
+.progress_bar li{ /*for the steps*/
+  list-style-type: none;
+  float: left;
+  width: 25%;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+.progress_bar li:before { /*for the circle progress symbol*/
+  content: counter(step); /*a function called counter*/
+  counter-increment: step;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border: 2px solid gray;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 10px auto;
+  background-color: gray;
+  
+}
+.progress_bar li:after {/*the line across the circle progress / connector */
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color:gray;
+  top: 20px; /*half of the li:before height*/
+  left: -50%;
+  z-index: -1;
+}
+.progress_bar li:first-child:after { /*connector starts after the first circle*/
+  content: none;
+}
+.progress_bar li.active{
+  color: white;
+}
+.progress_bar li.active:before{
+  border-color: white;
+}  
+/* .progress_bar li.active + li:after{
+  background-color: white;
+}   */
+
+
+
+
+/* side navbar Menu */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
