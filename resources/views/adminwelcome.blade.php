@@ -40,7 +40,7 @@
                   </div>
               </div>
               
-              <div class="copyright text-center">
+              <div class="copyright text-center" style="margin-top: 240px;">
                 <p>© <?php echo date("Y");?> All rights reserved | Designed by Zu and Ina</p>
               </div>
 
