@@ -9,7 +9,7 @@
           <div class="wrapper">
               <div class="form-inner-cont">
                   <div class="forms-26-info">
-                      <h2>IIUM Vehicle Registration System </h2>
+                      <h2>IIUM Vehicle Registration System 2</h2>
                       <p>Apply Your Sticker Now!</p>
                   </div>
 
@@ -39,8 +39,8 @@
 
                   </div>
               </div>
-              
-              <div class="copyright text-center" style="margin-top: 240px;">
+              <br><br><br><br><br>
+              <div class="copyright text-center">
                 <p>© <?php echo date("Y");?> All rights reserved | Designed by Zu and Ina</p>
               </div>
 

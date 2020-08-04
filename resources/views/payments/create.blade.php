@@ -86,7 +86,7 @@
                                         <div class="credit-card-wrapper">
                                             <div class="first-row form-group">
                                                 <div class="form-group row">
-                                                    <label class="col-sm-6 col-form-label">Amount of sticker paid </label>
+                                                    <label class="col-sm-6 col-form-label">Amount of payment(RM) </label>
                                                     <input class="billing-address-name form-control" type="text" name="amount" placeholder="Amount">
                                                 </div>
                                                 <div class="paymntf_card_number_grids">

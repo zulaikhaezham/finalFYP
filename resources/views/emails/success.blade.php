@@ -1,5 +1,5 @@
 @component('mail::message')
-# Your application is successful! You can collect your sticker at Office of Security Management during working hours. 
+# Your application is successful! Please show this email to collect your sticker at Office of Security Management with your matric card during working hours.  
 
 
 

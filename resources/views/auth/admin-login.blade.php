@@ -24,7 +24,7 @@
                                     @csrf
                                     <div class="forms-gds1 editContent" data-selector=".editContent" style="">
                                         <div class="form-group row">
-                                            <label for="admin_no" class="col-md-4 col-form-label text-md-right">{{ __('Admin No') }}</label>
+                                            <label for="admin_no" class="col-md-4 col-form-label text-md-right">{{ __('Admin ID') }}</label>
 
                                             <div class="col-md-6">
                                                 <input id="admin_no" type="admin_no" class="form-control @error('admin_no') is-invalid @enderror" name="admin_no" value="{{ old('admin_no') }}" required autocomplete="admin_no" autofocus>
