@@ -9,7 +9,7 @@
           <div class="wrapper">
               <div class="form-inner-cont">
                   <div class="forms-26-info">
-                      <h2>IIUM Vehicle Registration System 2</h2>
+                      <h2>IIUM Vehicle Registration System</h2>
                       <p>Apply Your Sticker Now!</p>
                   </div>
 
