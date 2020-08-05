@@ -27,7 +27,7 @@
                                         <div class="first-row form-group">
                                             <div class="controls">
                                                 <label class="control-label">Name on Card</label>
-                                                <input class="billing-address-name form-control" type="text" name="name" placeholder="zulaikhaezham">
+                                                <input class="billing-address-name form-control" type="text" name="name" placeholder="Name on card">
                                             </div>
                                             <div class="paymntf_card_number_grids">
                                                 <div class="fpay_card_number_grid_left">
